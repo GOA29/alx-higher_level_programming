@@ -32,7 +32,7 @@ class Rectangle:
         if not isinstance(value, int):
             raise TypeError("width must be an integer")
         if value < 0:
-            raise ValueError("width must be >= 0"
+            raise ValueError("width must be >= 0")
         self.__width = value
 
     @property
@@ -99,3 +99,4 @@ class Rectangle:
         """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
+        
