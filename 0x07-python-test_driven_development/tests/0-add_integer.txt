@@ -34,7 +34,7 @@ b must be an integer
 ...     print(ex.args[0])
 b must be an integer
 >>> try:
-...     add_integer(float('inf'), float('inf'))
+...     add_integer(float('inf'), float('inf')
 ... except Exception as ex:
 ...     print(ex.args[0])
 cannot convert float infinity to integer
